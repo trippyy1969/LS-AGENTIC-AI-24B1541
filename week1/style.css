@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:linear-gradient(
+        135deg,
+        #66d9ff,
+        #7b68ee,
+        #ff33cc
+    );
+    font-family:Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.login-card{
+    width:400px;
+    background:white;
+    padding:50px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);    
+    
+}
+
+h1{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+label{
+    display:block;
+    margin-top:20px;
+    margin-bottom:8px;
+    font-weight:bold;
+    font-size:14px;
+    color:#555;
+
+}
+
+input{
+    width:100%;
+    border:none;
+    border-bottom:1px solid #ccc;
+    padding:10px 0;
+    outline:none;
+}
+
+input:focus{
+    border-bottom:2px solid #7b68ee;
+
+}
+
+.forgot{
+    text-align:right;
+    margin-top:10px;
+}
+
+.forgot a{
+    text-decoration:none;
+    color:#666;
+    font-size:13px;
+}
+
+button{
+    width:100%;
+    padding: 12px;
+    margin-top:25px;
+    background:linear-gradient(
+        135deg,
+        #66d9ff,
+        #7b68ee,
+        #ff33cc
+    );
+    color:white;
+    border:none;
+    border-radius:30px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.social-text,
+.singUp-text{
+    text-align:center;
+    margin-top:30px;
+    text-decoration:none;
+    font-size:13px;
+    color:#555;
+}
+
+.social-icons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-top:20px;
+}
+
+.icon{
+
+    width:40px;
+    height:40px;
+
+    border-radius:50%;
+
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+.facebook{
+    background:#3b5998;
+}
+
+.twitter{
+    background:#1da1f2;
+}
+
+.google{
+    background:#db4437;
+}
+
+.signup-link{
+
+    display:block;
+
+    text-align:center;
+
+    margin-top:15px;
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-weight:bold;
+}
+
+
+
+
+
